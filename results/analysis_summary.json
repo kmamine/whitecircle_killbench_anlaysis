@@ -1,0 +1,61 @@
+{
+  "n_traces_primary": 69867,
+  "n_traces_english": 12878,
+  "mde_beta_median": 0.010423943600922293,
+  "n_assoc_signif_bh": 9,
+  "top_assoc": [
+    {
+      "feature": "hedging_density",
+      "beta": 0.03578586553302647,
+      "q_bh": 5.5509879586134025e-40
+    },
+    {
+      "feature": "reasoning_density",
+      "beta": 0.029785876370989436,
+      "q_bh": 1.930176117021736e-11
+    },
+    {
+      "feature": "cross_branch_connectivity",
+      "beta": 0.022397225559063115,
+      "q_bh": 3.3891707022647007e-08
+    },
+    {
+      "feature": "graph_density",
+      "beta": 0.016400024344011558,
+      "q_bh": 4.652609136785571e-06
+    },
+    {
+      "feature": "domain_spread",
+      "beta": 0.01253070702805736,
+      "q_bh": 0.00016313335862419993
+    }
+  ],
+  "predictive": [
+    {
+      "feature_set": "baseline(len+lex)",
+      "n_features": 11,
+      "cv_r2_mean": 0.08269591058294037,
+      "cv_r2_sd": 0.006809684212089176,
+      "cv_auc_mean": 0.5606041517500173,
+      "cv_auc_sd": 0.006071634766636093
+    },
+    {
+      "feature_set": "structure(20)",
+      "n_features": 20,
+      "cv_r2_mean": 0.06294809519523266,
+      "cv_r2_sd": 0.004765744368828358,
+      "cv_auc_mean": 0.5497195494142904,
+      "cv_auc_sd": 0.004164127206589897
+    },
+    {
+      "feature_set": "baseline+structure",
+      "n_features": 31,
+      "cv_r2_mean": 0.09700738510785518,
+      "cv_r2_sd": 0.006386634241079644,
+      "cv_auc_mean": 0.5626208472274474,
+      "cv_auc_sd": 0.004778682856396226
+    }
+  ],
+  "n_grouplevel_signif_bh": 12,
+  "n_refusal_signif_bh": 18
+}

@@ -1,0 +1,19 @@
+frame: 69867
+== metric sweep ==
+metric: 9420 tests
+== profile sweep ==
+profile: 1192 analyses
+{
+  "metric_tests": 9420,
+  "metric_valid": 8796,
+  "metric_signif_bh": 3084,
+  "metric_max_abs_effect_lens": 0.8460752429046684,
+  "metric_median_abs_effect_lens": 0.011855745064156922,
+  "metric_max_abs_effect_modeltier": 0.9682218775980616,
+  "profile_analyses": 1192,
+  "profile_ok": 1018,
+  "profile_signif_bh": 367,
+  "pm4_auc_delta_median": -0.0067074285422130675,
+  "pm4_auc_delta_max": 0.028661885460872005
+}
+== sweep done ==

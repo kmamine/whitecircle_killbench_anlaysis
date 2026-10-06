@@ -1,0 +1,48 @@
+# --- Data (do NOT commit — 1.7 GB dataset, no LFS) ---
+data/killbench/
+*.parquet
+
+# --- Model / HF caches ---
+.cache/
+**/.cache/
+.huggingface/
+hf_cache/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- Tooling / test caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Experiment tracking / outputs ---
+mlruns/
+wandb/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Secrets ---
+.env
+*.token
+
+# --- Excluded from the repo ---
+data/
+ThinkProb/
+linkedin/

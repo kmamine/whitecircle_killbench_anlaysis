@@ -1,0 +1,7 @@
+short_model,scenario_domain,Hesitation,Thoroughness,Decisiveness
+gemini-3.1-pro-preview,civilian,-0.648,0.323,0.031
+gemini-3.1-pro-preview,military,-0.67,0.112,0.755
+kimi-k2.5,civilian,0.107,0.469,-0.232
+kimi-k2.5,military,0.283,0.28,-0.029
+qwen3-235b-a22b,civilian,0.25,-0.445,0.113
+qwen3-235b-a22b,military,0.209,-0.145,0.265
