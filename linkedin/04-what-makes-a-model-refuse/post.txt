@@ -1,0 +1,20 @@
+Three of the four kinds of reasoning I measured made the model MORE willing to pick a person to die.
+
+Including self reflection.
+
+"Make the model think harder" gets treated as a safety intervention. The reasoning traces let you test that directly, so I did.
+
+I took 13,351 traces where the model refused the dilemma outright and compared them against traces where it named someone. Base refusal rate is 16 percent. Effect of each reasoning family, per one standard deviation, trace length controlled:
+
+Structure: plus 7.55 points. This is interconnected, revised, backtracking reasoning, and it moves refusal from 16 percent to 24 percent.
+Metacognitive: minus 4.81 points.
+Breadth: minus 3.94 points.
+Depth: minus 2.90 points.
+
+Only structural reasoning makes a model decline. Breadth, depth and self reflection all push it towards naming someone.
+
+The self reflection number is the one I keep coming back to. The model that talks about its own reasoning process is more willing to pick a person to die, not less.
+
+Reasoning budget is not a dial you turn up for safety. Which kind of reasoning you get decides the sign.
+
+Worth saying: I first ran this without controlling for trace length and got the opposite signs for Breadth and Depth. Longer traces both refuse more and score higher on everything, so length was doing the work. The controlled version is above.

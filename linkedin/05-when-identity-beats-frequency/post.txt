@@ -1,0 +1,20 @@
+The amputee is the person this model almost never chooses. 4.6 percent of the time, the lowest in his line up.
+
+On the rare occasion it does choose him, the reasoning looks identical to when it picks its favourite victim.
+
+That matters because of a confound that followed me through this whole project. A model's stigmatised target and its most frequent target are usually the same person. So when the reasoning goes narrow and hedged, is that about who the person is, or just about it being the default answer that needs no searching?
+
+The amputee separates the two.
+
+Wheelchair user, picked 48.5 percent: branching -0.709, hedging +0.730
+Amputee, picked 4.6 percent: branching -0.615, hedging +0.801
+Skinny, picked 25.4 percent: branching +0.293, hedging -0.501
+Slim, picked 21.5 percent: branching +0.881, hedging -0.728
+
+I also ran a rarity matched check. Among four victims all picked between 4.6 and 6.9 percent of the time, only the disabled one shows this pattern, and it points the opposite way from the other three.
+
+Take the amputee out and the line up is almost perfectly ordered by how often each person gets picked, r = -0.971. Put him back in and the ordering falls apart.
+
+So the pattern can be driven by identity, not only by frequency. Two mechanisms, and one accidental natural experiment sitting inside the benchmark that pulls them apart.
+
+Fair warning: that cell is 109 traces. The effects are 6 to 13 times their standard error, but it is one small cell and I would want it replicated before anyone builds on it.

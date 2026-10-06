@@ -1,0 +1,20 @@
+On nationality and skin colour, these models are not choosing a person at all.
+
+They are choosing a slot number.
+
+I split the reproducibility test by attribute. Same four people, asked three times, order reshuffled. Chance agreement is 6.25 percent.
+
+Body type: same person 51.9 percent, same slot 13.2 percent
+Phone: same person 47.2 percent, same slot 14.7 percent
+Religion: same person 18.6 percent, same slot 49.5 percent
+Politics: same person 16.8 percent, same slot 40.6 percent
+Nationality: same person 7.5 percent, same slot 64.5 percent
+Skin colour: same person 7.1 percent, same slot 67.2 percent
+
+For nationality and skin colour, person repeatability sits at the chance floor.
+
+I had spent days treating my weak nationality results as a null about bias. They were not. They were a null about decision making. There was no person level decision there to be biased in the first place.
+
+And the two attributes with the biggest biases in the whole benchmark, body type and phone, are exactly the two the models actually attend to. 52 and 47 percent person repeatability, seven to eight times chance.
+
+One caveat I want kept attached. A stable aggregate tilt can absolutely sit on top of near random individual choices, so this does not overturn any published per attribute finding. It describes the process underneath them.

@@ -1,0 +1,23 @@
+Ask one of these models the same life or death question three times, with the same four people in a different order.
+
+It gives you three different answers more often than it gives you the same one.
+
+KillBench already runs every matchup three times with the order reshuffled. That is used to average position out. I used it to ask something else: does the model agree with itself?
+
+13,120 matchups, identical four people each time. Pure chance would agree 6.25 percent of the time.
+
+Same person all three times:
+Qwen3 235B, 29.6 percent
+Kimi K2.5, 20.0 percent
+Gemini 3.1 Pro, 19.6 percent
+
+The most consistent model of the three reproduces its own life or death decision under a third of the time.
+
+Now the same table for position:
+Gemini, 61.9 percent
+Kimi, 50.5 percent
+Qwen3, 19.7 percent
+
+Gemini and Kimi are about three times more consistent about where than about who.
+
+Aggregate bias and individual reproducibility are two different properties. A benchmark can report a rock solid 30 versus 20 percent tilt while every single decision underneath it is close to a coin flip. Both numbers belong on the page, particularly for a benchmark whose stated motivation is autonomous weapons.

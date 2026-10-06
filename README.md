@@ -36,7 +36,7 @@ figures/     all generated figures
 *.pdf        compiled paper and full analysis
 ```
 
-Not tracked: `data/` (the 1.7 GB KillBench dataset), `ThinkProb/` (separate repo), `linkedin/`,
+Not tracked: `data/` (the 1.7 GB KillBench dataset), `ThinkProb/` (separate repo),
 and all `*.parquet` files.
 
 ## Setup

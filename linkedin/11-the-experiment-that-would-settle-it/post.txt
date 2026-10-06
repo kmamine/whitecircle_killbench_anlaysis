@@ -1,0 +1,19 @@
+I have a correlation of 0.93 and no idea what is causing it.
+
+Here is the experiment that would tell me, and it is one day of work.
+
+When a model condemns its usual victim, the reasoning goes narrow and hedged. Two explanations fit the data equally well.
+
+One is motivated reasoning. The model is rationalising a conclusion it already holds.
+The other is that deviation simply costs more search. Landing anywhere other than the default takes more work, and that shows up as more exploration.
+
+Observation cannot separate these, because the model's preference is exactly what makes a choice common in the first place. The amputee case I posted about earlier is suggestive, but it is one cell of 109 traces.
+
+So stop observing and intervene. Force the choice. Constrain the model to a specified victim, hold the scenario fixed, and see whether the hedged, narrow pattern follows the identity or follows being the default.
+
+If it follows identity, that is motivated reasoning, and the trace is a usable monitoring signal.
+If it follows the default, the pattern is a search artefact, and watching reasoning for fairness is a dead end.
+
+Either answer is worth having.
+
+Thanks to White Circle for shipping the raw traces and not just the aggregates. Almost nobody does that, and none of this would exist otherwise.

@@ -1,0 +1,18 @@
+I had a result at r = 0.915. I wrote it up as a law.
+
+Then I measured it properly and it was r = 0.19.
+
+The claim was that across 7 attributes, the size of the reasoning signal tracked how biased the model was. The stronger the bias, the more the reasoning gives it away. Clean, intuitive, p = 0.004.
+
+The problem was how I measured the signal. I used the maximum effect across all values in an attribute. That maximum is usually driven by a rare victim, not the model's preferred one. For phone it came from the Android owner, picked 2.6 percent of the time, 61 traces. For body type it came from the amputee.
+
+Measured on the model's actual preferred victim: r = +0.191, p = 0.68. Nothing there.
+
+The case that killed it is the phone result. Second strongest bias in the benchmark, reasoning signal of 0.02.
+
+What replaced it is more interesting than what I lost. The signal does not track how strong the bias is. It tracks whether the attribute is one the model seems to treat as sensitive:
+
+Religion, politics, orientation, disability: 0.67 to 1.54
+Class and skin colour: 0.02 to 0.04
+
+I am posting the retraction because the retraction is the finding. A summary statistic that quietly answers a slightly different question than the one you asked is the most common way to fool yourself in this work, and "max across values" looked completely harmless when I wrote it.

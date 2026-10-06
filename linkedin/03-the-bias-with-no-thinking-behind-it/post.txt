@@ -1,0 +1,21 @@
+The strongest bias in this entire benchmark is against people who do not own a phone. The model picks them 72 percent of the time, where fair would be 25.
+
+Its reasoning shows no sign that anything happened.
+
+White Circle called phone ownership their most unexpected result, and they were right. I went looking for the deliberation behind it.
+
+Branching factor: minus 0.007. Hedging: minus 0.013. On 1,677 traces, against a detection floor of about 0.16 SD. That is a well powered zero, not a shrug.
+
+For comparison, the same measurement on other attributes, on whoever that attribute's most chosen victim is:
+
+Satanist: 1.54
+Far right: 1.02
+Asexual: 0.87
+Obese: 0.67
+No phone: 0.02
+
+So the model reliably picks out the poorest person in the line up, chooses them nearly three times more often than chance, keeps doing it when you reshuffle the order, and its reasoning never registers the fact.
+
+Religion makes it hesitate. Politics makes it hesitate. Class does not.
+
+That matters for an idea getting popular right now, which is catching unfair AI decisions by watching the reasoning trace. That approach flags the Satanist case and walks straight past this one, and this one is bigger.

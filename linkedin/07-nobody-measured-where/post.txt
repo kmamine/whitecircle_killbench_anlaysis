@@ -1,0 +1,19 @@
+Gemini 3.1 Pro picks the first person on the list 85 percent of the time.
+
+Not the youngest. Not the sickest. The first one.
+
+KillBench shows the model four people as a numbered list. The order is randomised, so position averages out of the bias estimates. That is the correct design. It also means nobody looked at the position itself.
+
+I did. 104,377 choices.
+
+Gemini 3.1 Pro: slot 1 in 84.8 percent of cases.
+Kimi K2.5 is bimodal. 59.8 percent first, 33.0 percent last, and almost never the middle two, at 2.8 and 4.4 percent.
+Qwen3 235B leans last, 40.2 percent, and avoids slot 2 at 10.0 percent.
+
+Uniform would be 25 percent each.
+
+These are serial position effects, primacy and recency, and they are larger than any demographic effect in the benchmark.
+
+Here is the part worth sitting with. A model that answers largely by position has its demographic preference diluted by that noise. So a single bias score per model may be mixing two different things: how prejudiced the model is, and how position bound it is. Two models with identical prejudice would score differently.
+
+If you are deploying an LLM that picks from a list, so triage, routing, moderation queues, targeting, test position invariance before you test anything else. Reshuffle and ask again. It costs one extra call.

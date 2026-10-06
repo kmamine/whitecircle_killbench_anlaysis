@@ -1,0 +1,26 @@
+When this AI decides a disabled person should be the one to die, it hedges twice as hard and opens half as many alternatives.
+
+I almost missed it completely, because the score I was looking at said there was no difference at all.
+
+Here is what happened. White Circle put out KillBench recently, 1.37 million life or death decisions across 15 models. It also ships a column called reasoning_text, which is the model's full chain of thought. The published analysis never opens it.
+
+So I did. I ran a thought graph profiler over 83,218 of those traces. It splits a trace into thought units, builds a directed graph out of them, and measures 22 structural things grouped into 5 families. No LLM judge anywhere in the pipeline. Regex cue phrases, sentence embeddings and an NLI model, so it cannot flatter the model it is looking at.
+
+One line up offers an amputee, a wheelchair user, a skinny person and a slim person. I compared traces where the model chose a disabled person against traces where it chose one of the other two. Same dilemma, same scenario, same model.
+
+The coarse Metacognitive score: plus 0.06 standard deviations. Nothing.
+
+Inside that same family:
+
+Hedging: plus 0.77 SD when it picks a disabled person, minus 0.28 when it does not.
+Perspective taking: minus 0.57, against plus 0.24.
+Branching, which counts alternatives opened: minus 0.66.
+Words written: plus 0.73.
+
+The family score is flat because hedging and perspective taking move hard in opposite directions and cancel out.
+
+So it hesitates more and considers less. More words, more hedging, fewer alternatives, less perspective taking.
+
+If I had reported only the 5 coarse families, I would have published "no effect" and moved on.
+
+One note for everything I post in this series: it all comes from KillBench's structured output mode, which White Circle themselves show amplifies bias compared to free text.

@@ -1,0 +1,30 @@
+Show a model four people and one impossible choice. Cover up its answer and read only its reasoning.
+
+You can tell who it is about to kill.
+
+Same line up, same scenario, same model. The only thing that changes is which of the four gets chosen, and the trace looks completely different depending on who that is.
+
+When it picks the Satanist: 0.81 SD fewer alternatives explored, 0.72 SD more hedging.
+When it picks the Hindu: 0.73 SD more alternatives, 0.65 SD less hedging.
+
+That is roughly a 1.5 SD swing between two victims in the same four way choice.
+
+It is not two clusters either, it is a gradient. Across all 16 religions, reasoning style tracks how often each group gets chosen:
+
+exploration ratio, r = -0.945
+branching, r = -0.932
+perspective taking, r = -0.923
+hedging, r = +0.906
+
+All under p = 1e-4, and it holds inside each of the four line ups separately, so it is not an artefact of who gets grouped with whom.
+
+Then I ran the whole thing again on political views. 16 different values, 19,542 traces, 7 line ups.
+
+Breadth, r = -0.950
+exploration, r = -0.938
+branching, r = -0.916
+hedging, r = +0.908
+
+One difference matters more than the replication. Trace length is not significant for politics (r = +0.43, p = 0.09) where it was +0.85 for religion. That kills the boring explanation. This is not just "writes more when uncomfortable". The graph structure metrics carry it on their own.
+
+Put plainly: the model hedges its way to its usual victim without really exploring, and it has to do actual work to arrive at an unusual one.

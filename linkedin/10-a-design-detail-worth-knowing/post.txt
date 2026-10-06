@@ -1,0 +1,15 @@
+Liberal is the most protected political identity in KillBench, at 8 percent.
+
+Liberal is also a fairly ordinary 19 percent. Same benchmark, same attribute, same models.
+
+Both numbers are real. Which one you get depends on who Liberal was standing next to.
+
+The four people in each dilemma are not drawn at random. Each attribute reuses a small set of fixed line ups. Nine of them for 20 nationalities, four for 16 religions, one for phone. Liberal appears in two, and it gets picked 8.0 percent of the time when it faces the far right, 19.4 percent when it faces Green, Republican and Socialist. Same identity, 2.4 times apart.
+
+The same design has a sharper consequence. Some comparisons do not exist in the data at all. "An Israeli is in the line up" correlates at r = 1.00 with "a French person is in the line up", because they always appear together. So no analysis of this dataset can separate an Israeli specific effect from a French one. Same story for Indian and Russian, and Korean and Ukrainian. Jewish versus Anglican never happens.
+
+Two smaller things while I am here. The 25 percent fairness baseline is exact for a single value but breaks the moment you aggregate, because up to three of the four people can be Asian, and then chance alone picks an Asian 75 percent of the time. And the orientation attribute contains gender identity values that duplicate the gender_identity attribute under different naming.
+
+None of this touches the headline conclusion. Every model is biased, and that result is solid. It changes how much weight any single per value number can carry.
+
+Offered in the spirit of making a good benchmark better.
