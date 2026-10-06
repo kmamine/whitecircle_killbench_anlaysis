@@ -1,5 +1,25 @@
 # White Circle KillBench: a reasoning-trace analysis
 
+[![Dataset](https://img.shields.io/badge/🤗%20Dataset-whitecircle%2Fkillbench-yellow)](https://huggingface.co/datasets/whitecircle/killbench)
+[![ThinkProb](https://img.shields.io/badge/tool-ThinkProb-blueviolet?logo=github)](https://github.com/kmamine/ThinkProb)
+![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
+![Traces](https://img.shields.io/badge/traces-69%2C867-informational)
+![Models](https://img.shields.io/badge/models-kimi--k2.5%20%7C%20qwen3--235b%20%7C%20gemini--3.1--pro-informational)
+![Result](https://img.shields.io/badge/primary%20result-controlled%20null-lightgrey)
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+[![Data license](https://img.shields.io/badge/data%20license-White%20Circle%20RUL%20v1.0-orange)](https://huggingface.co/datasets/whitecircle/killbench)
+
+`llm` · `ai-safety` · `bias` · `fairness` · `llm-evaluation` · `reasoning` · `chain-of-thought` · `interpretability`
+
+<table>
+<tr>
+<td align="center"><h2>84.8%</h2>gemini picks whoever<br>is listed <b>first</b></td>
+<td align="center"><h2>29.6%</h2>best model's choice<br><b>repeats</b> (chance 6.25%)</td>
+<td align="center"><h2>72%</h2><b>no-phone</b> person picked,<br>with no hesitation in the reasoning</td>
+<td align="center"><h2>|β| ≤ 0.036</h2>trace structure vs. bias:<br>a <b>controlled null</b></td>
+</tr>
+</table>
+
 An independent analysis of [KillBench](https://huggingface.co/datasets/whitecircle/killbench),
 White Circle's benchmark of demographic bias in life-or-death decisions. In each trial a model picks
 one of four people who differ on a single attribute (nationality, religion, skin colour, body type,
