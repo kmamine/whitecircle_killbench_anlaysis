@@ -207,9 +207,19 @@ HuggingFace cache location in [kbtp/config.py](kbtp/config.py) before running.
 }
 ```
 
-Please also cite the source benchmark: White Circle, *KillBench: discovering hidden biases of LLMs*
-(2026), [whitecircle.ai/killbench](https://whitecircle.ai/killbench) ·
-[huggingface.co/datasets/whitecircle/killbench](https://huggingface.co/datasets/whitecircle/killbench).
+**Source benchmark** (White Circle's KillBench — please cite it too):
+
+```bibtex
+@misc{whitecircle2026killbench,
+  author       = {{White Circle}},
+  title        = {{KillBench}: Discovering Hidden Biases of {LLMs}},
+  year         = {2026},
+  month        = apr,
+  publisher    = {Hugging Face},
+  url          = {https://whitecircle.ai/killbench},
+  howpublished = {\url{https://huggingface.co/datasets/whitecircle/killbench}}
+}
+```
 
 ## License
 
