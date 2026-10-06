@@ -1,6 +1,7 @@
 # White Circle KillBench: a reasoning-trace analysis
 
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-whitecircle%2Fkillbench-yellow)](https://huggingface.co/datasets/whitecircle/killbench)
+[![HF data](https://img.shields.io/badge/🤗%20Derived%20data-Amine--CV%2Fwhitecircle__killbench__analysis-yellow)](https://huggingface.co/datasets/Amine-CV/whitecircle_killbench_analysis)
 [![ThinkProb](https://img.shields.io/badge/tool-ThinkProb-blueviolet?logo=github)](https://github.com/kmamine/ThinkProb)
 ![Python](https://img.shields.io/badge/python-3.12-blue?logo=python&logoColor=white)
 ![Traces](https://img.shields.io/badge/traces-69%2C867-informational)
@@ -28,7 +29,7 @@ sexual orientation, gender identity, politics, or phone).
 KillBench measures **who** the models choose. This project uses
 [ThinkProbe](https://github.com/kmamine/ThinkProb) to measure **how they reason** before choosing.
 ThinkProbe turns each reasoning trace into a thought graph and reports a 22-metric structural
-profile in 5 families: Breadth, Depth, Structure, Uncertainty and Self-reference. No generation is
+profile in 5 families: Breadth, Depth, Structure, Metacognitive and Efficiency. No generation is
 involved.
 
 > **Main question.** Does the structure of the reasoning trace tell biased choices apart from
@@ -146,7 +147,9 @@ docs/        analysis plan and design spec
 ```
 
 Not tracked: `data/` (the 1.7 GB dataset), `ThinkProb/` (separate repo) and every `*.parquet`
-file.
+file. The derived parquet outputs (ThinkProb features, labels, choices, sweeps) are on HuggingFace at
+[Amine-CV/whitecircle_killbench_analysis](https://huggingface.co/datasets/Amine-CV/whitecircle_killbench_analysis),
+keyed by KillBench's `row_id`.
 
 ## Reproduce
 
