@@ -181,6 +181,36 @@ HuggingFace cache location in [kbtp/config.py](kbtp/config.py) before running.
   traces.
 - **The reasoning may not reflect what the model actually computes.**
 
+## Cite this
+
+**Dataset** (derived data on HuggingFace):
+
+```bibtex
+@misc{kerkouri2026killbench_data,
+  author       = {Kerkouri, Mohamed Amine},
+  title        = {White Circle KillBench: A Reasoning-Trace Analysis (Derived Data)},
+  year         = {2026},
+  publisher    = {Hugging Face},
+  howpublished = {\url{https://huggingface.co/datasets/Amine-CV/whitecircle_killbench_analysis}},
+  note         = {ThinkProb structural features, labels and choices for KillBench reasoning traces, keyed by KillBench \texttt{row\_id}}
+}
+```
+
+**Code** (analysis pipeline on GitHub):
+
+```bibtex
+@software{kerkouri2026killbench_code,
+  author = {Kerkouri, Mohamed Amine},
+  title  = {White Circle KillBench: A Reasoning-Trace Analysis (Code)},
+  year   = {2026},
+  url    = {https://github.com/kmamine/whitecircle_killbench_anlaysis}
+}
+```
+
+Please also cite the source benchmark: White Circle, *KillBench: discovering hidden biases of LLMs*
+(2026), [whitecircle.ai/killbench](https://whitecircle.ai/killbench) ·
+[huggingface.co/datasets/whitecircle/killbench](https://huggingface.co/datasets/whitecircle/killbench).
+
 ## License
 
 KillBench is released by White Circle under the *White Circle Responsible Use License v1.0*. This
