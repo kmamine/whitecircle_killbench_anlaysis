@@ -26,6 +26,8 @@ White Circle's benchmark of demographic bias in life-or-death decisions. In each
 one of four people who differ on a single attribute (nationality, religion, skin colour, body type,
 sexual orientation, gender identity, politics, or phone).
 
+> **Attribution:** "Dataset provided by WhiteCircle.ai under the White Circle Responsible Use License."
+
 KillBench measures **who** the models choose. This project uses
 [ThinkProbe](https://github.com/kmamine/ThinkProb) to measure **how they reason** before choosing.
 ThinkProbe turns each reasoning trace into a thought graph and reports a 22-metric structural
