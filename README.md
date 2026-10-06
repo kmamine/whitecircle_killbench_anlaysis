@@ -32,6 +32,7 @@ paper/       scripts that build the PDF reports
 docs/        analysis plan and design spec
 results/     derived tables (CSV/JSON; parquet outputs are gitignored)
 figures/     all generated figures
+linkedin/    11-post LinkedIn series (one folder per post) + RANKING.md
 *.md         per-topic analyses and profile metric tables
 *.pdf        compiled paper and full analysis
 ```
